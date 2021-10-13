@@ -18,5 +18,5 @@ if (numberComputer > numberUser) {
 } else if (numberUser > numberComputer) {
     console.log("L'user ha vinto");
 
-} /* else (numberComputer = numberUser);
-console.log("pareggio"); */
+} else
+    console.log("pareggio");
